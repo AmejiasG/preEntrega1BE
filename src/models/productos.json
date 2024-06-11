@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Papas",
+    "description": "Limpias",
+    "price": "1700",
+    "code": "abc123",
+    "stock": "200",
+    "category": "Almacen",
+    "status": true,
+    "thumbnails": [],
+    "id": 1
+  },
+  {
+    "title": "Café",
+    "description": "De Colombia",
+    "price": "2500",
+    "code": "abc124",
+    "stock": "150",
+    "category": "Almacen",
+    "status": true,
+    "thumbnails": [],
+    "id": 2
+  },
+  {
+    "title": "Pan",
+    "description": "Molinos",
+    "price": "1200",
+    "code": "abc125",
+    "stock": "300",
+    "category": "Almacen",
+    "status": true,
+    "thumbnails": [],
+    "id": 3
+  },
+  {
+    "title": "Mantequilla",
+    "description": "200ml",
+    "price": "2500",
+    "code": "abc126",
+    "stock": "150",
+    "category": "Almacen",
+    "status": true,
+    "thumbnails": [],
+    "id": 4
+  },
+  {
+    "title": "Azúcar",
+    "description": "Dulce y sabroso",
+    "price": "2000",
+    "code": "abc127",
+    "stock": "150",
+    "category": "Almacen",
+    "status": true,
+    "thumbnails": [],
+    "id": 5
+  },
+  {
+    "title": "Arroz",
+    "description": "Grano largo",
+    "price": "3000",
+    "code": "abc128",
+    "stock": "120",
+    "category": "Almacen",
+    "status": true,
+    "thumbnails": [],
+    "id": 6
+  },
+  {
+    "title": "Papas Fritasss",
+    "description": "Crujientes",
+    "price": "2200",
+    "code": "abc135",
+    "stock": "230",
+    "category": "Almacen",
+    "status": true,
+    "thumbnails": [],
+    "id": null
+  },
+  {
+    "title": "Completo",
+    "description": "Crujientes",
+    "price": "2200",
+    "code": "abc136",
+    "stock": "230",
+    "category": "Almacen",
+    "status": true,
+    "thumbnails": [],
+    "id": null
+  },
+  {
+    "title": "Completo italiano",
+    "description": "Crujientes",
+    "price": "2200",
+    "code": "abc137",
+    "stock": "230",
+    "category": "Almacen",
+    "status": true,
+    "thumbnails": [],
+    "id": null
+  }
+]
