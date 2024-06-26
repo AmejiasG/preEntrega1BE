@@ -11,7 +11,7 @@ class ProductManager {
         
     }
 
-    async addProduct({title,description,price,code,status,stock,category,thumbnails}) { //metodo addProduct
+    async addProduct({title,description,price,code,status,stock,category,img}) { //metodo addProduct
 
         try {
 
@@ -35,14 +35,13 @@ class ProductManager {
                 stock,
                 category,
                 status:true,
-                thumbnails: thumbnails || []
             }
     
             if (productos.length > 0) {
                 ProductManager.ultID = productos.reduce ((maxID, producto) => Math.max(maxID, producto.id), 0);
             }
 
-            nuevoProducto.id = ++ProductManager.ultId;
+            nuevoProducto.id = ++ProductManager.ultID;
             productos.push(nuevoProducto)
             await this.guardarArchivo(productos);
 

@@ -1,0 +1,11 @@
+<h1>Renderizado de todos los productos</h1>
+
+<div class="productos">
+    {{#each productos}}
+    <div>
+        <p>{{this.title}}</p>
+        <p>{{this.description}}</p>
+        <p>{{this.price}}</p>
+    </div>
+    {{/each}}
+</div>
