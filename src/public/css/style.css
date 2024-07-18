@@ -14,3 +14,20 @@ h1{
     border-radius: 20px;
     padding: 25px;
 }
+
+li {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.title {
+    font-size: 30px;;
+}
+
+.fondo {
+    background-image: url(https://image.slidesdocs.com/responsive-images/background/blue-green-landscape-grass-sky-lawn-powerpoint-background_7cf248abc6__960_540.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

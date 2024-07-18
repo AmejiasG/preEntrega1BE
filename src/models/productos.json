@@ -2,33 +2,53 @@
   {
     "title": "Papas",
     "description": "Limpias",
-    "price": "1700",
+    "price": 1700,
     "code": "abc123",
     "stock": "200",
     "category": "Almacen",
     "status": true,
-    "thumbnails": [],
-    "id": 1
+    "thumbnails": []
   },
   {
     "title": "Pan",
     "description": "Molinos",
-    "price": "1200",
+    "price": 1200,
     "code": "abc125",
-    "stock": "300",
+    "stock": 300,
     "category": "Almacen",
     "status": true,
-    "thumbnails": [],
-    "id": 3
+    "thumbnails": []
   },
   {
     "title": "Mantequilla",
     "description": "deliciosa",
-    "price": "2500",
+    "price": 2500,
     "code": "abc444",
-    "stock": "100",
+    "stock": 100,
     "category": "Almacen",
     "status": true,
-    "id": 4
+    "thumbnails": []
+  },
+  {
+    "title": "Sopaipilla",
+    "description": "calentita",
+    "price": 400,
+    "code": "abc200",
+    "stock": 100,
+    "category": "Almacen",
+    "img": "sin imagen",
+    "status": true,
+    "thumbnails": []
+  },
+  {
+    "title": "Empanada",
+    "description": "ola",
+    "price": 400,
+    "code": "abc300",
+    "stock": 100,
+    "category": "Almacen",
+    "img": "sin imagen",
+    "status": true,
+    "thumbnails": []
   }
 ]

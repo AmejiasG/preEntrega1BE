@@ -11,13 +11,13 @@ class ProductManager {
         
     }
 
-    async addProduct({title,description,price,code,status,stock,category,img}) { //metodo addProduct
+    async addProduct({title,description,price,code,status,stock,category,img, thumbnails}) { //metodo addProduct
 
         try {
 
             const productos = await this.leerArchivo();
 
-            if (!title || !description || !price || !code || !status || !stock || !category) {
+            if (!title || !description || !price || !code || !status || !stock || !category || !img) {
                 console.log("Todos los campos son obligatorios");
                 return
             }
@@ -34,7 +34,9 @@ class ProductManager {
                 code,
                 stock,
                 category,
+                img,
                 status:true,
+                thumbnails: []
             }
     
             if (productos.length > 0) {
