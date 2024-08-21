@@ -1,33 +1,70 @@
-h1{
-    color: red;
-    text-align: center;
+*{
+    margin: 0;
+    box-sizing: border-box;
 }
-
-.productos {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid rgba(221, 170, 76, 0.719);
+    background-color: #e7e6e6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.productos div {
-    border: 2px solid black;
-    border-radius: 20px;
-    padding: 25px;
-}
-
-li {
+header div {
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.title {
-    font-size: 30px;;
+header div p {
+    margin: 10px;
 }
 
-.fondo {
-    background-image: url(https://image.slidesdocs.com/responsive-images/background/blue-green-landscape-grass-sky-lawn-powerpoint-background_7cf248abc6__960_540.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+header div a {
+    background-color: rgb(224, 70, 70);
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+form label {
+    color: #0f0b0b;
+    font-weight: bold;
+}
+
+form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: rgb(8, 21, 207);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; 
+}
+
+
+button:hover {
+    background-color: #0b1499;
 }
